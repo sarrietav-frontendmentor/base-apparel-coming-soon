@@ -81,6 +81,7 @@ form {
     font-family: 'Josefin Sans', sans-serif;
     color: $primary-light-red;
     outline: none;
+    width: 100%;
   }
 
   button[type='submit'] {
@@ -90,6 +91,6 @@ form {
     border-radius: 1.75rem;
     padding: .80rem 2rem;
     position: absolute;
-    right: 1.5rem;
+    right: 0;
   }
 }

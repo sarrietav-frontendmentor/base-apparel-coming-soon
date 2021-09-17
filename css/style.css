@@ -51,7 +51,8 @@ form {
     border-radius: 2rem;
     font-family: 'Josefin Sans', sans-serif;
     color: #ce9797;
-    outline: none; }
+    outline: none;
+    width: 100%; }
   form button[type='submit'] {
     border: none;
     background-color: transparent;
@@ -59,6 +60,6 @@ form {
     border-radius: 1.75rem;
     padding: .80rem 2rem;
     position: absolute;
-    right: 1.5rem; }
+    right: 0; }
 
 /*# sourceMappingURL=style.css.map */
