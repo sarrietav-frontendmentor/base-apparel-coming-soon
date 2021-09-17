@@ -38,6 +38,11 @@ main {
   text-align: left;
 }
 
+.main-image {
+  height: auto;
+  min-width: 100%;
+}
+
 .details {
   padding: 3rem 2rem;
   display: flex;
