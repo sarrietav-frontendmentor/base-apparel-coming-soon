@@ -6,16 +6,29 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  color: #413a3a; }
+  color: #413a3a;
+  height: 100vh; }
+
+main {
+  height: 100%;
+  display: flex;
+  flex-flow: column; }
 
 .logo-wrapper {
   padding: 2rem;
   text-align: left; }
 
+.details {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  flex: 1 1 auto; }
+
 .heading {
   box-decoration-break: clone;
   text-transform: uppercase;
-  letter-spacing: .75rem; }
+  letter-spacing: 0.75rem; }
   .heading span {
     display: block; }
   .heading--pink {

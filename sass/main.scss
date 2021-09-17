@@ -24,6 +24,13 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   color: $neutral;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
 }
 
 .logo-wrapper {
@@ -31,13 +38,21 @@ body {
   text-align: left;
 }
 
+.details {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  flex: 1 1 auto;
+}
+
 .heading {
   box-decoration-break: clone;
   text-transform: uppercase;
-  letter-spacing: .75rem;
+  letter-spacing: 0.75rem;
 
   span {
-    display: block
+    display: block;
   }
 
   &--pink {
