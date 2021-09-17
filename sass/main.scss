@@ -70,3 +70,12 @@ main {
   color: $btn-red;
   line-height: 1.5rem;
 }
+
+.form-control {
+  border: 1.25px solid $primary-light-red;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: $primary-light-red;
+  outline: none;
+}
