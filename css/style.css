@@ -4,9 +4,22 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Josefin Sans', sans-serif; }
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: #413a3a; }
 
 .logo-wrapper {
-  padding: 2rem; }
+  padding: 2rem;
+  text-align: left; }
+
+.heading {
+  box-decoration-break: clone;
+  text-transform: uppercase;
+  letter-spacing: .75rem; }
+  .heading span {
+    display: block; }
+  .heading--pink {
+    color: #ce9797;
+    font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */

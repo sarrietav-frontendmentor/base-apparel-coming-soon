@@ -22,8 +22,26 @@ $btn-less-white: hsl(0, 100%, 98%);
 
 body {
   font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: $neutral;
 }
 
 .logo-wrapper {
   padding: 2rem;
+  text-align: left;
+}
+
+.heading {
+  box-decoration-break: clone;
+  text-transform: uppercase;
+  letter-spacing: .75rem;
+
+  span {
+    display: block
+  }
+
+  &--pink {
+    color: $primary-light-red;
+    font-weight: 300;
+  }
 }
