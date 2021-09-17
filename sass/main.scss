@@ -1,3 +1,19 @@
+$primary-light-red: hsl(0, 36%, 70%);
+$primary-red: hsl(0, 93%, 68%);
+
+$neutral: hsl(0, 6%, 24%);
+
+// ### Gradients
+
+// - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+// - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+
+$btn-light-right: hsl(0, 80%, 86%);
+$btn-red: hsl(0, 74%, 74%);
+
+$btn-white: hsl(0, 0%, 100%);
+$btn-less-white: hsl(0, 100%, 98%);
+
 * {
   margin: 0;
   padding: 0;
